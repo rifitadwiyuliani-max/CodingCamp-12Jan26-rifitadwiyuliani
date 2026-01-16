@@ -1,11 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Be My Hero X | Official Merch</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+<!-- Navigation Bar -->
+<header class="navbar">
+    <div class="logo-wrapper">
+        <img
+            src="https://image.tmdb.org/t/p/original/okhiMK3c4fIYlrd2tuEU8Lv9Wh4.png"
+            alt="To Be My Hero X Logo"
+            class="logo">
+    </div>
+
+    <nav class="nav-menu">
+        <a href="#hero">Home</a>
+        <a href="#collection">Our Collection</a>
+        <a href="#call">Call Us</a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+    <h1>Welcome to Our Heroes Store!</h1>
+    <p>Limited edition displays & accessories for true hero fans</p>
+</section>
+
+<!-- Main Content -->
+<section class="content">
+
+    <!-- Left Column -->
+    <div class="left-column">
+
+        <!-- Preview Box -->
+        <div class="preview-box">
+            <div class="testimonial-overlay">
+                <p class="quote">
+                    "The merchandise is amazing! I love my new hero-themed items."
+                </p>
+
+                <div class="user">
+                    <div class="avatar">👤</div>
+                    <div>
+                        <strong>Florence Hughes</strong>
+                        <p class="user-desc">Anime Collector, 28 years old</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benefit -->
+        <section class="benefit">
+            <p class="benefit-text">
+                Use this space to provide users with more information about your offer.
+                Explain why your merch is worth collecting.
+            </p>
+            <ol class="benefit-list">
+                <li>High-quality materials</li>
+                <li>Exclusive designs</li>
+                <li>Fast shipping</li>
+            </ol>
+        </section>
+
+    </div>
+
+    <!-- Form -->
+    <div class="form-box" id="contact">
+        <h2>Pre-Order Form</h2>
+        <p class="form-desc">
+            Sales will contact you within 24 hours after the data is received.
+        </p>
+
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="First and Last name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Your email address" required>
+
+            <label for="merch">Merch Type</label>
+            <select id="merch">
+                <option>Acrylic Standee</option>
+                <option>Badge</option>
+                <option>CD</option>
+                <option>Dolls</option>
+                <option>DVD</option>
+                <option>Keychain</option>
+                <option>Pin</option>
+                <option>Tickets</option>
+            </select>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+
+</section>
+
+<!-- Collection -->
+<section class="collection" id="collection">
+    <h2>Our Collection</h2>
+
+    <div class="collection-grid">
+
+        <div class="item">
+            <div class="item-icon">⭐</div>
+            <div>
+                <h3>Acrylic Standee</h3>
+                <p>High-quality hero figure display, perfect for desks and shelves.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">⭐</div>
+            <div>
+                <h3>Badge Set</h3>
+                <p>Exclusive character badges to customize your bag or outfit.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">⭐</div>
+            <div>
+                <h3>Keychain</h3>
+                <p>Durable hero-themed keychains for everyday use.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">⭐</div>
+            <div>
+                <h3>DVD Box</h3>
+                <p>Complete series collection in premium packaging.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">⭐</div>
+            <div>
+                <h3>Dolls</h3>
+                <p>Soft and detailed character dolls for fans and collectors.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">⭐</div>
+            <div>
+                <h3>Limited Pin</h3>
+                <p>Special edition pins with exclusive hero artwork.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Call Us -->
+<section class="call" id="call">
+    <h2>Call Us</h2>
+    <p>For more information, please call us at (123) 456-7890</p>
+    <p>Email: info@tobemyhero.com</p>
     
+    <small>
+        Disclaimer: All merch are official licensed products. Images are for preview only.
+    </small>
+    <button class="call-btn" id="callBtn">Call Us Now</button>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2026 To Be My Hero X</p>
+    <div>
+        <a href="#">Terms of Service</a> ·
+        <a href="#">Privacy Policy</a>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="js/script.js"></script>
 </body>
 </html>
